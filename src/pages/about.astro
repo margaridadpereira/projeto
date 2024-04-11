@@ -1,12 +1,28 @@
-<html lang="en">
-	<body>
-        <a href="/">Home</a>
-        <a href="/about/">About</a>
+---
+import '../styles/global.css';
+const pageTitle = "Sobre Mim";
+---
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{pageTitle}</title>
+    <style>
+        h1 {
+          color: purple;
+          font-size: 4rem;
+        }
+      </style>
+  </head>
+  <body>
+    <a href="/">Início</a>
+    <a href="/about/">Sobre</a>
+    <a href="/blog/">Blog</a>
+    <h1>{pageTitle}</h1>
+    <h2>... e meu novo site Astro!</h2>
 
-        <h1>About Me</h1>
-        <h2>... and my new Astro site!</h2>
-      
-        <p>I am working through Astro's introductory tutorial. This is the second page on my website, and it's the first one I built myself!</p>
-        <p>This site will update as I complete more of the tutorial, so keep checking back and see how my journey is going!</p>
-      </body>
+    <p>Estou resolvendo o tutorial introdutório do Astro. Esta é a segunda página no meu website, e é a primeira que eu mesmo construí!</p>
+
+    <p>Este site será atualizado enquanto eu completo mais desse tutorial, então continue verificando e veja como minha jornada está indo!</p>
+  </body>
 </html>
