@@ -1,27 +1,13 @@
 ---
 import '../styles/global.css';
-import Navigation from '../components/Navigation.astro';
-const pageTitle = "Sobre Mim";
+import BaseLayout from '../layouts/BaseLayout.astro';
+const pageTitle = "novo Sobre Mim";
 ---
-<html lang="pt-BR">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>{pageTitle}</title>
-    <style>
-        h1 {
-          color: purple;
-          font-size: 4rem;
-        }
-      </style>
-  </head>
-  <body>
-    <Navigation />
-    <h1>{pageTitle}</h1>
+<BaseLayout PageTitle={pageTitle}>
+
     <h2>... e meu novo site Astro!</h2>
 
     <p>Estou resolvendo o tutorial introdutório do Astro. Esta é a segunda página no meu website, e é a primeira que eu mesmo construí!</p>
 
     <p>Este site será atualizado enquanto eu completo mais desse tutorial, então continue verificando e veja como minha jornada está indo!</p>
-  </body>
-</html>
+    </BaseLayout>
