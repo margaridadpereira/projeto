@@ -8,7 +8,7 @@
   --quaternary-color: #cccccc;
 
     /*FONTS*/
-    --font-family: 'Helvetica', 'sans-serif';
+  --font-family: 'Helvetica', 'sans-serif';
 
   /*SIZING & SPACING*/
   --s: 10px;
@@ -41,28 +41,27 @@ html {
   }
   
 
-    /*SIZING & SPACING*/
-  .navigationn {
+    /*SIZING & SPACING
+  .navigation {
     padding: 0;
     list-style: none;
     margin: 0; 
     background: rgb(0, 0, 0);
   }
   
-  .navigationn a { 
+  .navigation a { 
     text-align: right; 
     padding: 10px;
-    border-top: 1px solid rgba(255, 255, 255,0.3); 
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     color: white;
     display: block;
     text-decoration: none;
   }
   
-  .navigationn a:hover {
+  .navigation a:hover {
     background: #3dbfa6;
   }
-
+  */
 
 
 
@@ -70,12 +69,12 @@ html {
   
   h2 {
     margin: 1rem 0;
-    font-size: var(--l);
+    font-size: 100px;
     color: var(--primary-color);
     margin: 0;
     padding: 0;
     font-size: var(--m);
-    color: #bb1515cc;
+    color: #76bb15cc;
     position: relative;
   }
 
@@ -119,7 +118,7 @@ html {
   .hamburger {
     padding-right: 20px;
     cursor: pointer;
-    background-color: var(--terciary-color);
+    background-color: #065dff;
     display: flex;
     justify-content: space-around;
   }
