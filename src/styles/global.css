@@ -50,7 +50,7 @@ html {
   }
   
   .navigationn a { 
-    text-align: center; 
+    text-align: right; 
     padding: 10px;
     border-top: 1px solid rgba(255, 255, 255,0.3); 
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -61,26 +61,12 @@ html {
   
   .navigationn a:hover {
     background: #3dbfa6;
-    text: ;
   }
   
   .navigationn li:last-of-type a {
     border-bottom: none;
   }
 
-  @media (min-width: 600px) {
-    .navigationn {
-      display: flex;
-      justify-content: space-around;
-    }
-  }
-  
-  @media (min-width: 800px) {
-    .navigationn {
-      display: flex;
-      justify-content: center;
-    }
-  }
 
 
 
@@ -127,11 +113,11 @@ html {
 .nav-links a {
   display: block;
   text-align: center;
-  padding: 10px 0;
+  padding: 10px;
   text-decoration: none;
   font-size: 1.2rem;
-  font-weight: bold;
-  text-transform: uppercase;
+  font-weight: regular;
+  text-transform: bold;
 }
 
 .nav-links a:hover,
@@ -143,14 +129,30 @@ html {
   display: unset;
 }
 
-@media screen and (min-width: 636px) {
+@media screen and (min-width: 600px) {
   .nav-links {
     margin-left: 5em;
-    display: block;
+    display: flex;
     position: static;
     width: auto;
-    background: none;
+    justify-content: space-around;
+    background: var(--terciary-color);
   }
+}
+
+  @media screen and (min-width: 850px) {
+    .nav-links {
+      margin-left: 5em;
+      display: flex;
+      position: static;
+      width: auto;
+      justify-content: center;
+      background: var(--terciary-color);
+    }
+
+/*
+
+*/
 
   .nav-links a {
     display: inline-block;
@@ -180,3 +182,23 @@ html {
   align-items: center;
   gap: 0.5rem;
 }
+
+
+/* trabalhos grelha
+.trabalhos {
+  display: grid;
+  gap: var(--spacing);
+}
+
+.trabalhos article {
+  background: var(--bg-color);
+  padding: var(--spacing);
+  border: 1px solid var(--secondary-color);
+  border-radius: 10px;
+  transition: transform var(--transition-duration);
+}
+
+.trabalhos article:hover {
+  transform: scale(1.05);
+}
+ */
