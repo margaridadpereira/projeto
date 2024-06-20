@@ -226,7 +226,6 @@ html {
 }
 
 .trabalhos article {
-  background: var(--bg-color);
   padding: 10px;
   border-radius: 10px;
   transition: 1s;
