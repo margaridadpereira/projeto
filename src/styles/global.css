@@ -136,6 +136,7 @@ html {
     width: auto;
     justify-content: space-around;
     background: var(--terciary-color);
+    flex-direction: row;
   }
 }
 
