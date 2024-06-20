@@ -68,6 +68,20 @@ html {
     border-bottom: none;
   }
 
+  @media (min-width: 600px) {
+    .navigationn {
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+  
+  @media (min-width: 800px) {
+    .navigationn {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
 
 
   
