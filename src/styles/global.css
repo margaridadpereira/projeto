@@ -1,6 +1,28 @@
+/*STYLE GUIDE*/
+
+:root {
+    
+  /*COLORS*/
+  --primary-color: #3dbfa6;
+  --secondary-color: #ffffff;
+  --terciary-color: #000000;
+
+  /*SIZING & SPACING*/
+  --s: 10px;
+  --m: 16px;
+  --l: 20px;
+  --xl: 40px;
+
+  /*FONTS*/
+  --font-family: 'Helvetica', 'sans-serif';
+}
+
+
 html {
-    background-color: #f1f5f9;
+    background-color: var(--secondary-color);
     font-family: sans-serif;
+    scroll-behavior: smooth;
+
   }
   
   body {
@@ -18,11 +40,11 @@ html {
   h1 {
     margin: 1rem 0;
     font-size: 2.5rem;
-    color: purple;
+    color: var(--primary-color);
   }
 
-  /* nav styles */
 
+  /* nav styles */
 
   .hamburger {
     padding-right: 20px;
@@ -86,6 +108,8 @@ html {
 
 .hamburger {
   display: none;
+  position: fixed;
+
 }
 
 /* Estilos do Botão */
