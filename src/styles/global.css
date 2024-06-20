@@ -184,7 +184,7 @@ html {
 }
 
 
-/* trabalhos grelha */
+/* trabalhos grelha 
 .trabalhos {
   display: grid;
   gap: var(--spacing);
@@ -196,8 +196,42 @@ html {
   border: 1px solid var(--secondary-color);
   border-radius: 10px;
   transition: transform var(--transition-duration);
+  margin: 20px;
 }
 
 .trabalhos article:hover {
   transform: scale(1.05);
+}
+*/
+-- 
+
+.trabalhos {
+  display: grid;
+  gap: var(--spacing);
+}
+
+.trabalhos article {
+  background: var(--bg-color);
+  padding: 10px;
+  border: 1px solid var(--secondary-color);
+  border-radius: 10px;
+  transition: 1s;
+  margin: 20px;
+}
+
+.trabalhos article:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (min-width: 600px) {
+  .trabalhos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .trabalhos {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
