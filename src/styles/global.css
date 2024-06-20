@@ -184,7 +184,7 @@ html {
 }
 
 
-/* trabalhos grelha
+/* trabalhos grelha */
 .trabalhos {
   display: grid;
   gap: var(--spacing);
@@ -201,4 +201,3 @@ html {
 .trabalhos article:hover {
   transform: scale(1.05);
 }
- */
