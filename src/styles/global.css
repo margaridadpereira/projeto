@@ -87,3 +87,19 @@ html {
 .hamburger {
   display: none;
 }
+
+/* Estilos do Botão */
+.styled-button {
+  background-color: var(--button-bg-color);
+  color: var(--button-text-color);
+  border: 2px solid var(--button-border-color);
+  padding: var(--button-padding);
+  border-radius: var(--button-border-radius);
+  cursor: pointer;
+  transition: background-color var(--transition-duration) ease, transform var(--transition-duration) ease;
+  font-size: var(--button-font-size);
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
