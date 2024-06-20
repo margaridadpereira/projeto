@@ -27,8 +27,9 @@ Bem-vindo ao meu _novo blog_ sobre aprendendo Astro! Aqui, eu irei compartilhar 
 Eu irei completar o tutorial do Astro, e então continuarei adicionando mais postagens. Olhe por aqui para o que vem a frente.
 
 
+<h2 id="ancoratrabalhos">Trabalhos</h2>
+
 <section class="trabalhos">
-      <h2 id="ancoratrabalhos">Trabalhos</h2>
         <article>
             <h3>Leiva</h3>
                 <figure>
@@ -37,3 +38,23 @@ Eu irei completar o tutorial do Astro, e então continuarei adicionando mais pos
                 </figure>
         </article>
 </section>
+
+<section class="trabalhos">
+        <article>
+            <h3>Leiva</h3>
+                <figure>
+                    <img class="img" src="assets/Mockup Leiva Cartaz G.jpeg" alt="Mockup Leiva">
+                    <figcaption>Leiva é uma proposta de festival que reúne Palestras, Oficinas e Demonstrações...</figcaption>
+                </figure>
+        </article>
+</section>
+
+<section class="trabalhos">
+        <article>
+            <h3>Leiva</h3>
+                <figure>
+                    <img class="img" src="assets/Mockup Leiva Cartaz G.jpeg" alt="Mockup Leiva">
+                    <figcaption>Leiva é uma proposta de festival que reúne Palestras, Oficinas e Demonstrações...</figcaption>
+                </figure>
+        </article>
+</section> 

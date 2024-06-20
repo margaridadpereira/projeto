@@ -1,7 +1,6 @@
 /*STYLE GUIDE*/
 
-:root {
-    
+:root {   
   /*COLORS*/
   --primary-color: #3dbfa6;
   --secondary-color: #ffffff;
@@ -184,26 +183,7 @@ html {
 }
 
 
-/* trabalhos grelha 
-.trabalhos {
-  display: grid;
-  gap: var(--spacing);
-}
-
-.trabalhos article {
-  background: var(--bg-color);
-  padding: var(--spacing);
-  border: 1px solid var(--secondary-color);
-  border-radius: 10px;
-  transition: transform var(--transition-duration);
-  margin: 20px;
-}
-
-.trabalhos article:hover {
-  transform: scale(1.05);
-}
-*/
--- 
+/* trabalhos grelha */
 
 .trabalhos {
   display: grid;
