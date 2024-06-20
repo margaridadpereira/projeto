@@ -71,7 +71,7 @@ html {
 
 
   
-  h1 {
+  h2 {
     margin: 1rem 0;
     font-size: 2.5rem;
     color: var(--primary-color);
@@ -82,8 +82,8 @@ html {
     position: relative;
   }
 
-  h1:before {
-    content: "margarida pereira";
+  h2:before {
+    content: "Margarida Pereira";
     position: absolute;
     top: 0;
     left: 0;
@@ -94,7 +94,7 @@ html {
     overflow: hidden;
   }
   
-  h1:hover:before {
+  h2:hover:before {
     width: 100%;
     transform: translateX(100);
   }
