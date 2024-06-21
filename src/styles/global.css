@@ -9,6 +9,7 @@
 
     /*FONTS*/
   --font-family: 'Helvetica', 'sans-serif';
+  --font-family2: ''
 
 
   /*SIZING & SPACING*/
@@ -267,8 +268,8 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	color: white;
-	background-color: black;
+	color: var(--primary-color);
+	background-color: var(--terciary-color);
 	transition: 1s;
 	transform: translateY(-100%);
 }
