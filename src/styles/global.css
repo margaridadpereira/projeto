@@ -25,7 +25,7 @@ html {
 
   }
   
-  body {
+body {
     margin: 0 auto;
     width: 100%;
     max-width: 80ch;
@@ -41,14 +41,14 @@ html {
   }
   
 
-  
+
   h2 {
     margin: 1rem 0;
     font-size: 100px;
     color: var(--primary-color);
     margin: 0;
     padding: 0;
-    font-size: var(--xl);
+    font-size: var(--l);
     color: #ccc;
     position: relative;
   }
@@ -80,16 +80,12 @@ html {
     position: relative;
   }
 
-
-
-
   p{
     font-size: var(--m);
   }
 
 
   /* nav styles */
-
   .hamburger {
     padding-right: 20px;
     cursor: pointer;
@@ -97,11 +93,10 @@ html {
     display: flex;
     justify-content: space-around;
   }
-
   
   .hamburger .line {
     display: flex;
-    width: 40px;
+    /* width: 40px;*/
     height: 5px;
     margin-bottom: 10px;
     background-color: var(--primary-color);
@@ -212,7 +207,6 @@ html {
 */
 
 /* trabalhos grelha */
-
 .trabalhos {
   display: grid;
   gap: var(--spacing);
@@ -220,10 +214,10 @@ html {
 
 .trabalhos article {
   padding: 10px;
+  border: 5px solid rgba(231, 19, 19); 
   border-radius: 10px;
   transition: 1s;
   margin: 20px;
-  border: 5px solid rgba(255, 255, 255,0.3); 
 }
 
 .trabalhos article:hover {
