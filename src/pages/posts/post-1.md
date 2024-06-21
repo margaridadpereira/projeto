@@ -37,3 +37,13 @@ image:
                 </figure>
         </article>
 </section> 
+
+<section class="trabalhos">
+        <article>
+            <h3>Leiva</h3>
+                <figure>
+                    <img class="img" src="assets/Mockup Leiva Cartaz G.jpeg" alt="Mockup Leiva">
+                    <figcaption>Leiva é uma proposta de festival que reúne Palestras, Oficinas e Demonstrações...</figcaption>
+                </figure>
+        </article>
+</section> 

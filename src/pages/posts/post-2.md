@@ -7,8 +7,6 @@ image:
 ---
 image: src""
 
-
-
 /* container index */
 <style>
 .container {
