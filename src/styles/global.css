@@ -45,7 +45,7 @@ body {
 
   h2 {
     margin: 1rem 0;
-    font-size: 50px;
+    font-size: 20px;
     color: var(--primary-color);
     margin: 0;
     padding: 0;
@@ -93,7 +93,7 @@ body {
     background-color: var(--primary-color);
     display: flex;
     justify-content: space-around;
-    position: fixed;
+    position: sticky;
   }
   
   .hamburger .line {
@@ -132,8 +132,8 @@ body {
   width: 100%;
   top: 5rem;
   left: 48px;
-  background-color: #000000;
-  display: none;
+  background-color: var(--terciary-color);
+  display: block;
   position: fixed;
   margin: 0;
 }
