@@ -41,31 +41,6 @@ html {
   }
   
 
-    /*SIZING & SPACING
-  .navigation {
-    padding: 0;
-    list-style: none;
-    margin: 0; 
-    background: rgb(0, 0, 0);
-  }
-  
-  .navigation a { 
-    text-align: right; 
-    padding: 10px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    color: white;
-    display: block;
-    text-decoration: none;
-  }
-  
-  .navigation a:hover {
-    background: #3dbfa6;
-  }
-  */
-
-
-
-
   
   h2 {
     margin: 1rem 0;
@@ -74,12 +49,12 @@ html {
     margin: 0;
     padding: 0;
     font-size: var(--xl);
-    color: #76bb15cc;
+    color: #ccc;
     position: relative;
   }
 
   h2:before {
-    content: "Margarida Pereira | Digital Product Designer";
+    content: "Digital Product Designer";
     position: absolute;
     top: 0;
     left: 0;
@@ -124,13 +99,34 @@ html {
   }
   
   .hamburger .line {
-    display: block;
+    display: flex;
     width: 40px;
     height: 5px;
     margin-bottom: 10px;
     background-color: var(--primary-color);
   }
 
+  /*SIZING & SPACING
+  .navigation {
+    padding: 0;
+    list-style: none;
+    margin: 0; 
+    background: rgb(0, 0, 0);
+  }
+  
+  .navigation a { 
+    text-align: right; 
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    color: white;
+    display: block;
+    text-decoration: none;
+  }
+  
+  .navigation a:hover {
+    background: #3dbfa6;
+  }
+  */
 
 
 
