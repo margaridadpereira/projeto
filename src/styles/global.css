@@ -44,7 +44,6 @@ body {
   h2 {
     margin: 1rem 0;
     font-size: 20px;
-    color: var(--primary-color);
     margin: 0;
     padding: 0;
     font-size: var(--l);

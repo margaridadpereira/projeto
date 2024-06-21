@@ -6,8 +6,6 @@ image:
     alt: 'A logo completa do Astro.'
 ---
 
-
-
 <h3>Trabalhos</h3>
 
 <section class="trabalhos">
