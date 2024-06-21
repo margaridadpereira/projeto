@@ -96,7 +96,9 @@ html {
     background-color: var(--primary-color);
     display: flex;
     justify-content: space-around;
+    position: fixed;
   }
+
   
   .hamburger .line {
     display: flex;
@@ -192,11 +194,6 @@ html {
 
 }
 
-.hamburger {
-  display: none;
-  position: fixed;
-
-}
 
 /* Estilos do Botão 
 .styled-button {
