@@ -228,7 +228,7 @@ body {
 
 .trabalhos article {
   padding: 10px;
-  border: 2px solid --secondary-color; 
+  border: 4px solid --secondary-color; 
   border-radius: 10px;
   transition: 1s;
   margin: 20px;

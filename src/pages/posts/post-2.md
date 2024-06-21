@@ -9,7 +9,7 @@ image: src""
 
 
 
-/* container index*/
+/* container index */
 <style>
 .container {
 	width: 500px;
