@@ -27,7 +27,7 @@ Bem-vindo ao meu _novo blog_ sobre aprendendo Astro! Aqui, eu irei compartilhar 
 Eu irei completar o tutorial do Astro, e então continuarei adicionando mais postagens. Olhe por aqui para o que vem a frente.
 
 
-<h2 id="ancoratrabalhos">Trabalhos</h2>
+<h3>Trabalhos</h3>
 
 <section class="trabalhos">
         <article>
