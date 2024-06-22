@@ -1,56 +1,21 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: Minha Segunda Postagem no Blog
-image:
-    url: "https://docs.astro.build/assets/arc.webp"
-    alt: "Miniatura de arcos do Astro."
 ---
-image: src""
 
-/* container index */
-<style>
-.container {
-	width: 500px;
-	height: 500px;
-	position: relative;
-	overflow: hidden;
-}
+<h3>Communication Design</h3>
 
-.container img {
-	width: 100%;
-	transition: 1s;
-}
+   <div class="container">
+        <img src="/public/Mockup Leiva Cartaz G.jpeg" alt="a mockup with three posters from Leiva's festival">
+            <div class="caption">
+  		        <h3>Leiva: Food, Community, Sustainable Agriculture</h3>
+  	        </div>
+  </div>
 
-.caption {
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	color: white;
-	background-color: black;
-	transition: 1s;
-	transform: translateY(-100%);
-}
+   <div class="container">
+        <img src="/public/Mockup pack_musicos.png" alt="a mockup with music project, includes a vinyl, a box and more">
+            <div class="caption">
+  		        <h3>Too Early to Die: Limited Edition</h3>
+  	        </div>
+  </div>
 
-.caption h1 {
-	text-transform: uppercase;
-	margin: 0;
-}
-
-.caption p {
-	font-size: 18px;
-	text-transform: capitalize;
-}
-
-.container:hover img{
-	transform: translateY(100%);
-}
-.container:hover .caption {
-	transform: translateY(0);
-}
-  </style>
+  

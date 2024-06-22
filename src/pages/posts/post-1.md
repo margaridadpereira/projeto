@@ -1,49 +1,19 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'Minha Primeira Postagem no Blog'
-image:
-    url: 'https://docs.astro.build/assets/full-logo-light.png'
-    alt: 'A logo completa do Astro.'
 ---
 
-<h3>Trabalhos</h3>
+<h3>Digital Product Design Projects</h3>
 
-<section class="trabalhos">
-        <article>
-            <h3>Leiva</h3>
-                <figure>
-                    <img class="img" src="assets/Mockup Leiva Cartaz G.jpeg" alt="Mockup Leiva">
-                    <figcaption>Leiva é uma proposta de festival que reúne Palestras, Oficinas e Demonstrações...</figcaption>
-                </figure>
-        </article>
-</section>
+   <div class="container">
+        <img src="/public/spotifynewfeature_mockup.jpeg" alt="macbook mockup with a new feature for spotify">
+            <div class="caption">
+  		        <h3>Spotify New Feature</h3>
+  	        </div>
+  </div>
 
-<section class="trabalhos">
-        <article>
-            <h3>Leiva</h3>
-                <figure>
-                    <img class="img" src="assets/Mockup Leiva Cartaz G.jpeg" alt="Mockup Leiva">
-                    <figcaption>Leiva é uma proposta de festival que reúne Palestras, Oficinas e Demonstrações...</figcaption>
-                </figure>
-        </article>
-</section>
-
-<section class="trabalhos">
-        <article>
-            <h3>Leiva</h3>
-                <figure>
-                    <img class="img" src="assets/Mockup Leiva Cartaz G.jpeg" alt="Mockup Leiva">
-                    <figcaption>Leiva é uma proposta de festival que reúne Palestras, Oficinas e Demonstrações...</figcaption>
-                </figure>
-        </article>
-</section> 
-
-<section class="trabalhos">
-        <article>
-            <h3>Leiva</h3>
-                <figure>
-                    <img class="img" src="assets/Mockup Leiva Cartaz G.jpeg" alt="Mockup Leiva">
-               
-                </figure>
-        </article>
-</section> 
+   <div class="container">
+        <img src="/public/cultura.png" alt="a mockup with a phone showing and app opened">
+            <div class="caption">
+  		        <h3>cultur-a</h3>
+  	        </div>
+  </div>
